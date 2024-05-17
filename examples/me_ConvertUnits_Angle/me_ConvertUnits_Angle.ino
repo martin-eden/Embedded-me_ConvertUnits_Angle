@@ -27,7 +27,7 @@ void setup()
     vfprintf() documentation in "stdio.h" mentions it's possible
     by rebuilding but I hadn't figure it out how to achieve it.
 
-    Anyways, floats for calculations, not for printing.
+    Anyway, floats for calculations, not for printing.
   */
 
   // Degrees to radians and gradians:
