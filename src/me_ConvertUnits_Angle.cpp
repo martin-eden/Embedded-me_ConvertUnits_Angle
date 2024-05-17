@@ -7,7 +7,7 @@
 
 #include "me_ConvertUnits_Angle.h"
 
-#include <math.h> // fmod()
+#include <math.h> // fabs(), fmod()
 
 /*
   Return always positive fractional remainder
@@ -56,7 +56,7 @@ TFloat me_ConvertUnits_Angle::DegToRad(TFloat ArcLen_Deg)
 // Map float to [0, 2*Pi)
 TFloat me_ConvertUnits_Angle::NormalizeRad(TFloat ArcLen_Rad)
 {
-  return fmod(ArcLen_Rad, CircleLen_Rad);
+  return Normalize(ArcLen_Rad, CircleLen_Rad);
 }
 
 // Convert radians to degrees
@@ -81,7 +81,7 @@ TFloat me_ConvertUnits_Angle::DegToGrad(TFloat ArcLen_Deg)
 // Map float to [0, 400)
 TFloat me_ConvertUnits_Angle::NormalizeGrad(TFloat ArcLen_Grad)
 {
-  return fmod(ArcLen_Grad, CircleLen_Grad);
+  return Normalize(ArcLen_Grad, CircleLen_Grad);
 }
 
 // Convert gradians to degrees
