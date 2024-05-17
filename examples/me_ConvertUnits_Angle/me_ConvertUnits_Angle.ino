@@ -9,7 +9,7 @@
 
 #include <me_UartSpeeds.h>
 #include <me_InstallStandardStreams.h>
-#include <me_Types.h>
+#include <me_BaseTypes.h>
 
 void setup()
 {
@@ -18,6 +18,7 @@ void setup()
   InstallStandardStreams();
   printf("[me_ConvertUnits_Angle]\n");
 
+  using namespace me_BaseTypes;
   using namespace me_ConvertUnits_Angle;
 
   /*
@@ -84,7 +85,6 @@ void setup()
       Angle_Grad += 100.0 / 3;
     }
   }
-
 }
 
 void loop()
