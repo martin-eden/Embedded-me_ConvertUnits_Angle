@@ -9,6 +9,10 @@
 
 #include <math.h> // fabs(), fmod()
 
+#include <me_BaseTypes.h>
+
+using namespace me_BaseTypes;
+
 /*
   Return always positive fractional remainder
 

@@ -7,10 +7,12 @@
 
 #pragma once
 
-#include <me_Types.h>
+#include <me_BaseTypes.h>
 
 namespace me_ConvertUnits_Angle
 {
+  using namespace me_BaseTypes;
+
   // Map float to [0, 360)
   TFloat NormalizeDeg(TFloat ArcLen_Deg);
 
