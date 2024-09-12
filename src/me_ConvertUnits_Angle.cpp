@@ -2,7 +2,7 @@
 
 /*
   Author: Martin Eden
-  Last mod.: 2024-05-17
+  Last mod.: 2024-09-12
 */
 
 #include "me_ConvertUnits_Angle.h"
@@ -10,8 +10,6 @@
 #include <math.h> // fabs(), fmod()
 
 #include <me_BaseTypes.h>
-
-using namespace me_BaseTypes;
 
 /*
   Return always positive fractional remainder
