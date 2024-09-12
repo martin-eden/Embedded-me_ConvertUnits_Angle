@@ -2,7 +2,7 @@
 
 /*
   Author: Martin Eden
-  Last mod.: 2024-05-17
+  Last mod.: 2024-09-12
 */
 
 #include <me_ConvertUnits_Angle.h>
@@ -18,7 +18,6 @@ void setup()
   InstallStandardStreams();
   printf("[me_ConvertUnits_Angle]\n");
 
-  using namespace me_BaseTypes;
   using namespace me_ConvertUnits_Angle;
 
   /*

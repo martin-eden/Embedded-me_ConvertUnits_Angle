@@ -2,7 +2,7 @@
 
 /*
   Author: Martin Eden
-  Last mod.: 2024-05-17
+  Last mod.: 2024-09-12
 */
 
 #pragma once
@@ -11,8 +11,6 @@
 
 namespace me_ConvertUnits_Angle
 {
-  using namespace me_BaseTypes;
-
   // Map float to [0, 360)
   TFloat NormalizeDeg(TFloat ArcLen_Deg);
 
