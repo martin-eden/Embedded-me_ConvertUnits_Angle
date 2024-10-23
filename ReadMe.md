@@ -21,14 +21,22 @@ Run [Install.sh](Install.sh).
 Run [Remove.sh](Remove.sh).
 
 
-## Details
+## Code
 
-
-[Example](examples/me_ConvertUnits_Angle/me_ConvertUnits_Angle.ino)
-
-[Code](src/me_ConvertUnits_Angle.cpp)
+* [Example][Example]
+* [Interface][Interface]
+* [Implementation][Implementation]
 
 
 ## See also
 
-[My other repositories](https://github.com/martin-eden/contents).
+* [My other embedded C++ libraries][Embedded]
+* [My other repositories][Repos]
+
+
+[Example]: examples/me_ConvertUnits_Angle/me_ConvertUnits_Angle.ino
+[Interface]: src/me_ConvertUnits_Angle.h
+[Implementation]: src/me_ConvertUnits_Angle.cpp
+
+[Embedded]: https://github.com/martin-eden/Embedded_Crafts/tree/master/Parts
+[Repos]: https://github.com/martin-eden/contents
