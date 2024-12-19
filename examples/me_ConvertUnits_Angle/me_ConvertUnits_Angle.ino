@@ -2,21 +2,21 @@
 
 /*
   Author: Martin Eden
-  Last mod.: 2024-09-12
+  Last mod.: 2024-12-19
 */
 
 #include <me_ConvertUnits_Angle.h>
 
-#include <me_UartSpeeds.h>
 #include <me_InstallStandardStreams.h>
 #include <me_BaseTypes.h>
 
 void setup()
 {
-  Serial.begin(me_UartSpeeds::Arduino_Normal_Bps);
+  Serial.begin(115200);
   delay(1500);
   InstallStandardStreams();
-  printf("[me_ConvertUnits_Angle]\n");
+
+  printf("[me_ConvertUnits_Angle] Start\n");
 
   using namespace me_ConvertUnits_Angle;
 
@@ -84,6 +84,8 @@ void setup()
       Angle_Grad += 100.0 / 3;
     }
   }
+
+  printf("[me_ConvertUnits_Angle] Done\n");
 }
 
 void loop()
