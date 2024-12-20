@@ -11,14 +11,9 @@ Arduino library to convert degrees to radians or gradians (gons).
   * bash
 
 
-## Install
+## Install/remove
 
-Run [Install.sh](Install.sh).
-
-
-## Remove
-
-Run [Remove.sh](Remove.sh).
+Easy way is to clone [GetLibs][GetLibs] repo and run it's code.
 
 
 ## Code
@@ -37,6 +32,8 @@ Run [Remove.sh](Remove.sh).
 [Example]: examples/me_ConvertUnits_Angle/me_ConvertUnits_Angle.ino
 [Interface]: src/me_ConvertUnits_Angle.h
 [Implementation]: src/me_ConvertUnits_Angle.cpp
+
+[GetLibs]: https://github.com/martin-eden/Embedded-Framework-GetLibs
 
 [Embedded]: https://github.com/martin-eden/Embedded_Crafts/tree/master/Parts
 [Repos]: https://github.com/martin-eden/contents
